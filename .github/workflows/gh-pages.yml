@@ -18,7 +18,7 @@ jobs:
           yarn install
       - name: Build Docs
         run: |
-          yarn build
+          yarn docs:build
           touch docs/.vuepress/dist/.nojekyll
           cp CNAME docs/.vuepress/dist
       - name: Deploy Docs
