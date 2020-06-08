@@ -2587,6 +2587,10 @@ only screen and (max-width: 320px) {
     }
 }
 
+.placeholder {
+    border-bottom: 1px solid rgba(224, 224, 224, 0);
+}
+
 .our-schedule {
 max-width: 1140px;
 }
