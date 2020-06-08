@@ -13,9 +13,9 @@ Version: 2.4
 02. PRIMARY STYLES
 03. GENERAL LAYOUT
 04. HEADER
-		1. Header Styles
-		2. Logo
-		3. Navigation
+        1. Header Styles
+        2. Logo
+        3. Navigation
 05. FOOTER
 06. HOME
 07. SERVICES
@@ -26,10 +26,10 @@ Version: 2.4
 12. PRICING
 13. CONTACT
 14. FEATURES
-		1. Photos Hover Animations
-		2. Dropcaps
-		3. Partners
-		4. Social Icons
+        1. Photos Hover Animations
+        2. Dropcaps
+        3. Partners
+        4. Social Icons
 15. MOBILE DEVICES
 16. RESPONSIVE NAVIGATION
 17. PRINT STYLES
@@ -38,7 +38,7 @@ Version: 2.4
 
 
 /* ========================================================== */
-/* 				  		    01. RESET                         */
+/*                          01. RESET                         */
 /* ========================================================== */
 
 html,
@@ -391,7 +391,7 @@ td {
 }
 
 /* ========================================================== */
-/* 				  	    02. PRIMARY STYLES                    */
+/*                      02. PRIMARY STYLES                    */
 /* ========================================================== */
 
 img,
@@ -436,7 +436,8 @@ img {
     overflow: hidden;
     visibility: hidden;
     width: 100%;
-    /*vertical-align: super;*/ /*LSP-CSS Recommendation*/
+    /*vertical-align: super;*/
+    /*LSP-CSS Recommendation*/
 }
 
 th,
@@ -654,7 +655,7 @@ blockquote {
 }
 
 /* ========================================================== */
-/* 				  		 03. GENERAL LAYOUT                   */
+/*                       03. GENERAL LAYOUT                   */
 /* ========================================================== */
 
 body {
@@ -992,7 +993,7 @@ h6 {
 }
 
 /* ========================================================== */
-/* 						    04. HEADER                        */
+/*                          04. HEADER                        */
 /* ========================================================== */
 
 /* ----- 1. Header Styles ----- */
@@ -1088,7 +1089,7 @@ a#logo {
 }
 
 /* ========================================================== */
-/* 						     05. FOOTER                       */
+/*                           05. FOOTER                       */
 /* ========================================================== */
 
 #footer {
@@ -1119,7 +1120,7 @@ a#logo {
 }
 
 /* ========================================================== */
-/* 				  		    06. HOME                          */
+/*                          06. HOME                          */
 /* ========================================================== */
 
 #slider-wrapper {
@@ -1130,7 +1131,7 @@ a#logo {
 }
 
 /* ========================================================== */
-/* 				  		    07. SERVICES                      */
+/*                          07. SERVICES                      */
 /* ========================================================== */
 
 .services_box {
@@ -1167,7 +1168,7 @@ a#logo {
 }
 
 /* ========================================================== */
-/* 						  08. TESTIMONIALS                    */
+/*                        08. TESTIMONIALS                    */
 /* ========================================================== */
 
 .testimonials_wrapper {
@@ -1283,7 +1284,7 @@ p.testimonials_text {
 }
 
 /* ========================================================== */
-/* 						    09. FUN FACTS                     */
+/*                          09. FUN FACTS                     */
 /* ========================================================== */
 
 .fun_fact_wrapper {
@@ -1336,7 +1337,7 @@ p.testimonials_text {
 }
 
 /* ========================================================== */
-/* 						      10. BLOG                        */
+/*                            10. BLOG                        */
 /* ========================================================== */
 
 .blog_item {
@@ -1444,7 +1445,7 @@ a.button_grey:hover {
 }
 
 /* ========================================================== */
-/* 				  		   11. NEWSLETTER                     */
+/*                         11. NEWSLETTER                     */
 /* ========================================================== */
 
 .newsletter_wrapper {
@@ -1509,7 +1510,8 @@ i.email_icon {
 
 #newsletter-form #submit-button-newsletter {
     /*width: 140px;
-    height: 56px;*/ /*LSP-CSS Recommendation*/
+    height: 56px;*/
+    /*LSP-CSS Recommendation*/
     background-color: #f1c40f;
     border: 1px solid #f1c40f;
     color: #454545;
@@ -1563,7 +1565,7 @@ p.newsletter_success_box {
 }
 
 /* ========================================================== */
-/* 				  		    12. PRICING                       */
+/*                          12. PRICING                       */
 /* ========================================================== */
 
 .price_item {
@@ -1746,7 +1748,7 @@ a.price_button.pb_gold:hover {
 }
 
 /* ========================================================== */
-/* 						     13. CONTACT                      */
+/*                           13. CONTACT                      */
 /* ========================================================== */
 
 #contact-form {
@@ -1849,7 +1851,7 @@ p.contact_success_box {
 }
 
 /* ========================================================== */
-/* 				  		    14. FEATURES                      */
+/*                          14. FEATURES                      */
 /* ========================================================== */
 
 /* ----- 1. Photos Hover Animations ----- */
@@ -2026,7 +2028,7 @@ ul.social_icons li a i:hover {
 }
 
 /* ========================================================== */
-/* 		                 max-width: 1024px                    */
+/*                       max-width: 1024px                    */
 /* ========================================================== */
 
 @media only screen and (max-width: 1024px) {
@@ -2050,7 +2052,7 @@ ul.social_icons li a i:hover {
 }
 
 /* ========================================================== */
-/* 					   15. MOBILE DEVICES                     */
+/*                     15. MOBILE DEVICES                     */
 /* ========================================================== */
 @media handheld,
 only screen and (max-width: 767px) {
@@ -2260,7 +2262,7 @@ only screen and (max-width: 767px) {
 }
 
 /* ========================================================== */
-/* 						   MOBILE 320px                       */
+/*                         MOBILE 320px                       */
 /* ========================================================== */
 @media handheld,
 only screen and (max-width: 320px) {
@@ -2272,7 +2274,7 @@ only screen and (max-width: 320px) {
 }
 
 /* ========================================================== */
-/* 				    16. RESPONSIVE NAVIGATION                 */
+/*                  16. RESPONSIVE NAVIGATION                 */
 /* ========================================================== */
 #wt_responsive_nav_wrap {
     width: 100%;
@@ -2517,7 +2519,7 @@ only screen and (max-width: 320px) {
 }
 
 /* ========================================================== */
-/* 				  	     17. PRINT STYLES                     */
+/*                       17. PRINT STYLES                     */
 /* ========================================================== */
 
 @media print {
@@ -2583,4 +2585,21 @@ only screen and (max-width: 320px) {
     h3 {
         page-break-after: avoid;
     }
+}
+
+.our-schedule {
+max-width: 1140px;
+}
+
+.googleCalendar {
+    position: relative;
+    padding-bottom: 50%;
+}
+
+.googleCalendar iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
