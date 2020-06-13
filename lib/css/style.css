@@ -662,6 +662,10 @@ body {
     background-color: #fff;
 }
 
+.call_to_action_white.pb-2 {
+    padding: 90px 0 2rem 0;
+}
+
 #container {
     position: relative;
     overflow: hidden;
